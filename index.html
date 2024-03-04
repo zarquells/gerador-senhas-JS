@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1 id="title"> Gerador de Senhas </h1>
+
+        <div id="contaneir-main">
+            <div id="contaneir-main-dois">
+                <div id="contaneir-quantidade">
+
+                    <p> Quantas senhas você deseja gerar? </p>
+
+                    <div id="contaneir-slider">
+                        <input type="range" min="1" max="10" id="rangeQuantity" value="1">
+                        <br>
+                        <div class="font-range-value"> <p id="indicativo-RV">Quant. Atual: </p> <p id="rangeValue"> 1 </p> </div>
+                    </div>
+                    <p> Qual o tamanho das senhas? </p>
+
+                    <div id="contaneir-slider">
+                        <input type="range" min="1" max="20" id="rangeQuantityWord" value="1">
+                        <br>
+                        <div class="font-range-value"> <p id="indicativo-RVW">Taman. Atual: </p> <p id="rangeValueWord"> 1 </p> </div>
+                    </div>
+                </div>
+
+                <div id="contaneir-elementos">
+
+                    <p> Quais elementos deseja nas senhas? </p>
+
+                    <form>
+                        <input type="checkbox" id="lettersCapsOn">
+                        <label for="lettersCapsOn"> Letras Maiúsculas </label>
+                    
+                        <input type="checkbox" id="numbersOn">
+                        <label for="numbersOn"> Números </label>
+                        <br>
+                        <input type="checkbox" id="symbolsOn">
+                        <label for="symbolsOn"> Símbolos </label>
+                        <br>
+
+                    </form>
+                </div>
+
+                <button id="generatePwd" onclick="generatePwd()"> Gerar </button>
+
+            </div>
+            
+            <div id="output-passwords">
+                <div id="passwords">
+                    
+                </div>
+            </div>
+        </div>
+            
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

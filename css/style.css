@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%; 
+    height: 100%; 
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("../img/background.jpg");
+    padding: 6px 99px 5px 93px;
+    color: #fff;
+}
+
+h1{
+    margin: 15px 5px 60px;
+    font-size: 32px;
+    text-align: center;
+}
+
+#contaneir-main{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+#contaneir-main-dois{
+    width: 400px;
+    height: max-content;
+    background-color: rgba(153, 126, 79, 0.45);
+    padding: 30px 20px 10px;
+    border-radius: 10px;
+}
+
+#indicativo-RV, #rangeValue{
+    display: inline-block;
+}
+#indicativo-RVW, #rangeValueWord{
+    display: inline-block;
+}
+p{
+    font-size: 16px;
+}
+
+.font-range-value{
+    margin: 5px 0 0 138px;
+    font-size: 12px;
+    text-align: right;
+}
+#rangeQuantity{
+    width: 215px;
+    height: 10px;
+    margin: 25px 0 5px;
+}
+#rangeQuantityWord{
+    width: 231px;
+    height: 10px;
+    margin: 25px 0 5px;
+}
+
+#contaneir-elementos{
+    width: max-content;
+    height: max-content;
+}
+label{
+    width: 47px;
+    height: 15px;
+    margin: 0 8px 0 8px;
+}
+form{
+    margin-bottom: 15px;
+}
+
+#numbersOn{
+    margin-left: 10px;
+}
+
+button{
+    display: flex;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #caa96e;
+    margin-left: auto;
+    padding: 5px;
+    padding-left: 11px;
+}
+
+#output-passwords{
+    width: 400px;
+    padding: 12px 20px 11px 19px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(153, 126, 79, 0.45);
+    display: flex;
+}
+#passwords{
+    font-size: 14px;
+    line-height: 1.80;
+    text-align: left;
+}
